@@ -1,0 +1,48 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#form-contact{
+	width: 600px;
+	margin: 100px auto;
+	padding: 50px;
+	border: 1px solid #000;
+	border-radius: 12px;
+	background-color:rgb(211, 254, 250);
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+input{
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 12px;
+}
+input[type="submit"]{
+	width: 150px;
+	margin: 0 auto;
+	background-color: rgb(37, 253, 233);
+}
+label{
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+input[type="checkbox"]{
+	width: 10px;
+
+}
+h1{
+	text-align: center;
+	color:rgb(37, 253, 233);
+	margin-bottom: 20px;
+	font-style: italic;
+}
